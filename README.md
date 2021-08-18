@@ -3,7 +3,7 @@ Sample for showing EasyFloat features on Xamarin.Forms.
 
 Tutorial:
 
-https://mp.weixin.qq.com/s/ygTxEfR6-mxT4cfVbTS2gA
+https://mp.weixin.qq.com/s/dwIy_F_Tc7cjhI3w4lKnJg
 
 QQ Group:313308215
 
