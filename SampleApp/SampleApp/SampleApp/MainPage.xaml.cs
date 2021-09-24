@@ -14,6 +14,8 @@ namespace SampleApp
 
         public const string RequestPermission = "RequestPermission";
 
+        public const string DoDismissFloat = "DoDismissFloat";
+
         public MainPage()
         {
             InitializeComponent();
@@ -27,6 +29,11 @@ namespace SampleApp
         private void PermissionBtn_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(new object(), RequestPermission);
+        }
+
+        private void DismissBtn_Clicked(object sender, EventArgs e)
+        {
+            MessagingCenter.Send(new object(), DoDismissFloat);
         }
     }
 }

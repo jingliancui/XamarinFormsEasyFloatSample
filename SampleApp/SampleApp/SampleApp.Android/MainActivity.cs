@@ -36,6 +36,11 @@ namespace SampleApp.Droid
                 .SetLayout(Resource.Layout.FloatLayout)
                 .Show();
             });
+
+            MessagingCenter.Subscribe<object>(this, MainPage.DoDismissFloat, _ => 
+            {
+                EasyFloat.Dismiss();
+            });
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

@@ -6,6 +6,7 @@
     <StackLayout>
         <Button Text="Permission" x:Name="PermissionBtn" Clicked="PermissionBtn_Clicked"></Button>
         <Button Text="Show" x:Name="ShowFloatBtn" Clicked="ShowFloatBtn_Clicked"></Button>
+        <Button Text="Dismiss" x:Name="DismissBtn" Clicked="DismissBtn_Clicked"></Button>
     </StackLayout>
     
 
